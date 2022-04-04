@@ -12,4 +12,11 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  linkAccueil = "home"
+  linkProgtamme = "programme"
+  linkExercices = "exercices"
+  linkProfil = "profil"
+  linkContact = "contact"
+  linkParametres = "parametres"
+  linkLogin = "login"
 }

@@ -1,16 +1,16 @@
   <nav>
-            <div Name="logo">
-             <li><a href="/"><img src="../../../assets/img/logo.png" alt="" /></a></li>
+            <div class="logo">
+             <li class="liLogo"><a [routerLink]=[linkAccueil]><img src="../../../assets/img/logo.png" alt="" /></a></li>
             </div>
         <div class="navbar">
             <ul>
-            <li> <a href="accueil"><img src="../../../assets/img/home.png" alt="Accueil" /></a></li>
-            <li> <a href="programme"> <img src="../../../assets/img/calendar.png" alt="Programme" /></a></li>
-            <li> <a href="exercices"><img src="../../../assets/img/bibliothèque.png" alt="Exercices" /></a></li>
-            <li> <a href="profil"><img src="../../../assets/img/patients.png" alt="Profil" /></a></li>
-            <li> <a href="contact"><img src="../../../assets/img/mail.png" alt="Contact" /></a></li> 
-            <li><a href="parametres"><img src="../../../assets/img/settings.png" alt="Parametres" /></a></li>
-            <li> <a href="login"><img src="../../../assets/img/logout.png" alt="Logout" /></a></li>
+            <li> <a [routerLink]=[linkAccueil]><img src="/assets/img/home.png" alt="Accueil" /></a></li>
+            <li> <a [routerLink]=[linkProgtamme]><img src="/assets/img/bibliothèque.png" alt="Exercices" /></a></li>
+            <li> <a [routerLink]=[linkExercices]> <img src="/assets/img/calendar.png" alt="Programme" /></a></li>
+            <li> <a [routerLink]=[linkProfil]><img src="/assets/img/patients.png" alt="Profil" /></a></li>
+            <li> <a [routerLink]=[linkContact]><img src="/assets/img/mail.png" alt="Contact" /></a></li> 
+            <li> <a [routerLink]=[linkParametres]><img src="/assets/img/settings.png" alt="Parametres" /></a></li>
+            <li> <a [routerLink]=[linkLogin]><img src="assets/img/logout.png" alt="Logout" /></a></li>
             
             </ul>
         </div>
