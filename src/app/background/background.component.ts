@@ -11,5 +11,8 @@ export class BackgroundComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  linkNotifications= "notifications"
+  linkContact = "contact"
+
 
 }
