@@ -1,1 +1,5 @@
-/*# sourceMappingURL=home.component.css.map */
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}/*# sourceMappingURL=home.component.css.map */

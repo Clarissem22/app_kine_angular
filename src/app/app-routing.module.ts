@@ -10,6 +10,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { DonComponent } from './pages/don/don.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent },
@@ -18,7 +19,7 @@ const routes: Routes = [
   {path: "profil", component: ProfilComponent },
   {path: "contact", component: ContactComponent },
   {path: "parametres", component: ParametresComponent },
-  {path: "login", component: LoginComponent },
+  {path: "", component: LoginComponent },
   {path: "don", component: DonComponent },
   {path: "notifications", component: NotificationsComponent },
   {path: "inscription", component: InscriptionComponent },

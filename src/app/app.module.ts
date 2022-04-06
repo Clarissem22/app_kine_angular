@@ -15,7 +15,9 @@ import { NotificationsComponent } from './pages/notifications/notifications.comp
 import { InscriptionComponent } from './pages/inscription/inscription.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BackgroundComponent } from './background/background.component';
+import { BackgroundComponent } from './components/background/background.component';
+import { ProgrammejourComponent } from './pages/programme/programmejour/programmejour.component';
+
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { BackgroundComponent } from './background/background.component';
     NotificationsComponent,
     InscriptionComponent,
     NavbarComponent,
-    BackgroundComponent
+    BackgroundComponent,
+    ProgrammejourComponent,
+  
   ],
   imports: [
     BrowserModule,

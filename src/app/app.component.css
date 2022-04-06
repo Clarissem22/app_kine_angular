@@ -1,6 +1,5 @@
-.container {
-  display: flex;
-  gap: 1vw;
-  width: 100%;
+body {
   height: 100%;
+  width: 100%;
+  display: flex;
 }/*# sourceMappingURL=app.component.css.map */
