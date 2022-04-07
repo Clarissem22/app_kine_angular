@@ -1,11 +1,66 @@
-<div>
-<div>
-<h1>Programme du jour: </h1>
-<p>"Titre du programme du jour"</p>
-</div>
 
-<div>
-<p>Musique</p>
-<div>C'est parti! <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="none" stroke="#a00" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 4v16m14-8L6 20m14-8L6 4"/></svg></div>
-</div>
+
+<div class="bloc">
+  <div class="top">
+    <div class="titre">
+      <h1>Programme du jour:</h1>
+      <p>"Titre du programme du jour"</p>
+    </div>
+
+    <div class="musique">
+      <p>Musique</p>
+      <button>
+        C'est parti!
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          aria-hidden="true"
+          role="img"
+          width="1em"
+          height="1em"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="none"
+            stroke="#a00"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 4v16m14-8L6 20m14-8L6 4"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="contenu" >
+async function(){
+        const response = await fetch("datas/exercices.json");
+        const produits = await response.json();
+        this.setState({produits: produits});
+    }
+
+    <button><img src="assets/img/btn_left.png" alt=""></button>
+    <div class="videos">
+      <div>
+        <img src="/assets/img/exercices/planche1.jpg" />
+        <div>Planche</div>
+      </div>
+      <div>
+        <img src="/assets/img/exercices/ours1.jpg" />
+        <div>Ours</div>
+      </div>
+      <div>
+        <img src="/assets/img/exercices/grenouille1.jpg" />
+        <div>Grenouille</div>
+      </div>
+      <div>
+        <img src="/assets/img/exercices/rampe1.jpg" />
+        <div>Rampe</div>
+      </div>
+    </div>
+
+    <button> <img src="assets/img/btn_right.png" alt=""></button>
+  </div>
 </div>

@@ -13,3 +13,17 @@ export class ProgrammejourComponent implements OnInit {
   }
 
 }
+
+// async function dataExercices(){
+//   const response = await fetch("/datas/exercices.json");
+//   const data = await response.json();
+//   return data;
+// }
+
+// dataExercices().then((resultat) => {
+// resultat.forEach((element) => {
+//   const div = document.createElement("div");
+//   div
+
+// });
+// });
