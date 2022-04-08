@@ -71,7 +71,7 @@ export class ProgrammejourComponent implements OnInit {
   {
       id : "7",
       image : "transfertàsyrene1.jpg",
-      nom: "transfert à syrene",
+      nom: "transfert à sirène",
       description : "Faire la sirène",
       duree : "5",
       repetition : "5",

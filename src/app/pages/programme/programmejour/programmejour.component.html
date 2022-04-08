@@ -8,40 +8,20 @@
     <div class="musique">
       <p>Musique</p>
       <button>
-        C'est parti!
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          aria-hidden="true"
-          role="img"
-          width="1em"
-          height="1em"
-          preserveAspectRatio="xMidYMid meet"
-          viewBox="0 0 24 24"
-        >
-          <path
-            fill="none"
-            stroke="#a00"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M6 4v16m14-8L6 20m14-8L6 4"
-          />
-        </svg>
+        <p>C'est parti !</p> 
+       <img src="assets/img/play.png" alt="">
       </button>
     </div>
   </div>
 
   <div class="contenu">
     <button><img src="assets/img/btn_left.png" alt="" /></button>
-    <div class="videos" >
-    <div *ngFor="let exercice of exercices">
+    <div class="videos"  *ngFor="let exercice of exercices">
       <div class="img">
         <img src="assets/img/exercices/{{ exercice.image }}" />
       </div>
-      <div>
-        <div class="nom">{{ exercice.nom }}</div>
-      </div>
+      <div class="nom">
+        <div >{{ exercice.nom }}</div>
       </div>
     </div>
 
