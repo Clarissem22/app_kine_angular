@@ -53,6 +53,8 @@
 
         &:hover{
           transform : scale(1.1);
+          transition: 0.3s;
+
         }
 
         img{
@@ -83,6 +85,8 @@
 
       &:hover{
         transform : scale(1.1);
+        transition: 0.3s;
+
       }
     }
     .videos{
@@ -104,6 +108,8 @@
 
       &:hover{
         transform : scale(1.1);
+        transition: 0.3s;
+
         filter: drop-shadow(6px 12px 14px rgba(0, 0, 0, 0.25) );
 
       }

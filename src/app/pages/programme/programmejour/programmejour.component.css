@@ -50,6 +50,7 @@
 }
 .bloc .top .musique button:hover {
   transform: scale(1.1);
+  transition: 0.3s;
 }
 .bloc .top .musique button img {
   height: 70%;
@@ -73,6 +74,7 @@
 }
 .bloc .contenu button:hover {
   transform: scale(1.1);
+  transition: 0.3s;
 }
 .bloc .contenu .videos {
   height: 90%;
@@ -90,6 +92,7 @@
 }
 .bloc .contenu .videos .video:hover {
   transform: scale(1.1);
+  transition: 0.3s;
   filter: drop-shadow(6px 12px 14px rgba(0, 0, 0, 0.25));
 }
 .bloc .contenu .videos .video .img {

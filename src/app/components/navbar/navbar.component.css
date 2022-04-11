@@ -51,4 +51,5 @@ nav ul li:hover {
 }
 nav ul a:hover {
   transform: scale(1.1);
+  transition: 0.3s;
 }/*# sourceMappingURL=navbar.component.css.map */

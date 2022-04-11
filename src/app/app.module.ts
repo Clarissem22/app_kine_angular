@@ -20,6 +20,7 @@ import { ProgrammejourComponent } from './pages/programme/programmejour/programm
 import { HttpClientModule } from '@angular/common/http';
 import { BgProgrammeComponent } from './pages/programme/bg-programme/bg-programme.component';
 import { BgHomeComponent } from './pages/home/bg-home/bg-home.component';
+import { ChangerProgrammeComponent } from './pages/programme/changer-programme/changer-programme.component';
 
 
 
@@ -43,6 +44,7 @@ import { BgHomeComponent } from './pages/home/bg-home/bg-home.component';
     ProgrammejourComponent,
     BgProgrammeComponent,
     BgHomeComponent,
+    ChangerProgrammeComponent,
 
    
   

@@ -1,0 +1,48 @@
+.bloc {
+  height: 30%;
+  width: 45%;
+  margin: 3% 0 0 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
+}
+.bloc .top {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bloc .top h1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bloc .container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.bloc .container button {
+  margin: 2%;
+  padding: 2%;
+  background: none;
+  color: white;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  background-color: #d61a20;
+  border-radius: 20px;
+}
+.bloc .container button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}/*# sourceMappingURL=changer-programme.component.css.map */
