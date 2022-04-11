@@ -21,6 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BgProgrammeComponent } from './pages/programme/bg-programme/bg-programme.component';
 import { BgHomeComponent } from './pages/home/bg-home/bg-home.component';
 import { ChangerProgrammeComponent } from './pages/programme/changer-programme/changer-programme.component';
+import { AvisExercicesComponent } from './pages/programme/avis-exercices/avis-exercices.component';
 
 
 
@@ -45,6 +46,7 @@ import { ChangerProgrammeComponent } from './pages/programme/changer-programme/c
     BgProgrammeComponent,
     BgHomeComponent,
     ChangerProgrammeComponent,
+    AvisExercicesComponent,
 
    
   
