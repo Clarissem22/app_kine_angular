@@ -45,4 +45,10 @@ nav ul li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+nav ul li:hover {
+  background-color: #998e8c;
+}
+nav ul a:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=navbar.component.css.map */

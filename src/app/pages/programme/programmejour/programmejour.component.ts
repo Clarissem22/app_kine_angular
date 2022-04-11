@@ -46,48 +46,52 @@ export class ProgrammejourComponent implements OnInit {
       duree : "5",
       repetition : "5",
       experience : "10"
-  },
-
-  {
-      id : "5",
-      image : "retournement1.jpg",
-      nom: "retournements",
-      description : "Faire la retournement",
-      duree : "5",
-      repetition : "5",
-      experience : "10"
-  },
-
-  {
-      id : "6",
-      image : "4pattes1.jpg",
-      nom: "4 pattes",
-      description : "Faire la patte",
-      duree : "5",
-      repetition : "5",
-      experience : "10"
-  },
-
-  {
-      id : "7",
-      image : "transfertàsyrene1.jpg",
-      nom: "transfert à sirène",
-      description : "Faire la sirène",
-      duree : "5",
-      repetition : "5",
-      experience : "10"
-  },
-
-  {
-      id : "8",
-      image : "escalier1.jpg",
-      nom: "esclalier",
-      description : "Faire l'escalier",
-      duree : "5",
-      repetition : "5",
-      experience : "10"
   }
+
+ 
   ];
+
+  exercices2:any = [
+  {
+    id : "5",
+    image : "retournement1.jpg",
+    nom: "retournements",
+    description : "Faire la retournement",
+    duree : "5",
+    repetition : "5",
+    experience : "10"
+},
+
+{
+    id : "6",
+    image : "4pattes1.jpg",
+    nom: "4 pattes",
+    description : "Faire la patte",
+    duree : "5",
+    repetition : "5",
+    experience : "10"
+},
+
+{
+    id : "7",
+    image : "transfertàsyrene1.jpg",
+    nom: "transfert à sirène",
+    description : "Faire la sirène",
+    duree : "5",
+    repetition : "5",
+    experience : "10"
+},
+
+{
+    id : "8",
+    image : "escalier1.jpg",
+    nom: "esclalier",
+    description : "Faire l'escalier",
+    duree : "5",
+    repetition : "5",
+    experience : "10"
+}
+  ]
 
 
   constructor(private exercicesService:ExercicesService) { }

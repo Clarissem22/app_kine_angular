@@ -1,5 +1,63 @@
-section {
+.container {
   width: 100vw;
   height: 50vw;
   display: flex;
+}
+
+.background {
+  background-color: #E2E2E2;
+  border-radius: 25px;
+  margin: 2%;
+  width: 85vw;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.background .head {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.background .head h1 {
+  width: 63%;
+  text-align: end;
+  font-weight: bold;
+  font-size: 30px;
+}
+.background .head .imghead {
+  display: flex;
+  justify-content: flex-end;
+  height: 3vw;
+  width: 50%;
+}
+.background .head .imghead a {
+  margin-right: 3%;
+}
+.background .block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0.5vw;
+  grid-row-gap: 4vw;
+  justify-items: center;
+}
+.background .block .blockparam {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  filter: drop-shadow(6px 12px 14px rgba(0, 0, 0, 0.25));
+  border-radius: 25px;
+  width: 50%;
+  gap: 1vw;
+  height: 11vw;
+}
+.background .block .blockparam:hover {
+  transform: scale(1.1);
+}
+.background .block .blockparam p {
+  font-weight: 500;
 }/*# sourceMappingURL=parametres.component.css.map */

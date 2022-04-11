@@ -7,8 +7,7 @@
 
     <div class="musique">
       <p>Musique</p>
-      <button>
-        <p>C'est parti !</p> 
+      <button> 
        <img src="assets/img/play.png" alt="">
       </button>
     </div>
@@ -16,13 +15,15 @@
 
   <div class="contenu">
     <button><img src="assets/img/btn_left.png" alt="" /></button>
-    <div class="videos"  *ngFor="let exercice of exercices">
+    <div class="videos">
+    <div class="video"  *ngFor="let exercice of exercices">
       <div class="img">
         <img src="assets/img/exercices/{{ exercice.image }}" />
       </div>
       <div class="nom">
         <div >{{ exercice.nom }}</div>
       </div>
+    </div>
     </div>
 
     <button><img src="assets/img/btn_right.png" alt="" /></button>
