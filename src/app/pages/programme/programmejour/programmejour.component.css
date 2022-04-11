@@ -90,7 +90,8 @@
   height: 90%;
   display: flex;
   flex-direction: column;
-  margin-right: 2%;
+  margin-right: 10%;
+  box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
 }
 .bloc .contenu .videos:hover {
   transform: scale(1.1);

@@ -18,7 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BackgroundComponent } from './components/background/background.component';
 import { ProgrammejourComponent } from './pages/programme/programmejour/programmejour.component';
 import { HttpClientModule } from '@angular/common/http';
-import { BgProgrammeComponent } from './bg-programme/bg-programme.component';
+
+
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { BgProgrammeComponent } from './bg-programme/bg-programme.component';
     NavbarComponent,
     BackgroundComponent,
     ProgrammejourComponent,
-    BgProgrammeComponent,
+
+   
   
   ],
   imports: [

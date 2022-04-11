@@ -75,7 +75,8 @@
               "browserTarget": "app_kine_angular:build:production"
             },
             "development": {
-              "browserTarget": "app_kine_angular:build:development"
+              "browserTarget": "app_kine_angular:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
