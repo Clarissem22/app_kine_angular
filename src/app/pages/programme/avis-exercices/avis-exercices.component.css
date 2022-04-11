@@ -29,4 +29,7 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
 }/*# sourceMappingURL=avis-exercices.component.css.map */
