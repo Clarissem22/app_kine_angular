@@ -27,6 +27,7 @@ import { ListeExercicesComponent } from './pages/exercices/liste-exercices/liste
 import { TriComponent } from './pages/exercices/tri/tri.component';
 import { BgProfilComponent } from './pages/profil/bg-profil/bg-profil.component';
 import { ProfilPatientComponent } from './pages/profil/profil-patient/profil-patient.component';
+import { HelloComponent } from './pages/home/hello/hello.component';
 
 
 
@@ -57,6 +58,7 @@ import { ProfilPatientComponent } from './pages/profil/profil-patient/profil-pat
     TriComponent,
     BgProfilComponent,
     ProfilPatientComponent,
+    HelloComponent,
 
    
   
