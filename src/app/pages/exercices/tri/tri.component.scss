@@ -1,0 +1,80 @@
+.bloc {
+    height: 10%;
+    width: 90%;
+    margin: 0 5% 2% 5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
+
+    .contenu{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns : 10% 90%;
+        grid-template-rows : 100%;
+        align-items: center;
+
+        h1{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin: 0 0 0 5%;
+            
+        }
+
+       
+
+    .trier{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns : 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        grid-template-rows : 100%;
+        align-items: center;
+
+        label{
+            margin-left: 5%;
+           }
+
+           input[type="checkbox"] {
+            display: none;
+          }
+          input[type="checkbox"]+ label::before {
+            content:'';
+            border: 1px solid #d61a20;
+            padding: 0 0.4rem;
+            margin-right: 0.3rem;
+          }
+          input[type="checkbox"]:checked + label::before {
+            background-color: #d61a20;
+
+          }
+
+        
+
+
+        .search{
+            height: 60px;
+            width: 60px;
+            border-radius: 50px;
+            background: url('https://api.iconify.design/bx/search-alt.svg?color=%23d61a20&height=60') no-repeat center center / contain;
+            border: none;
+            font: inherit;
+            cursor: pointer;
+            outline: inherit;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+    }
+}
+        
+    }
+
+    
+    }
+  
+  

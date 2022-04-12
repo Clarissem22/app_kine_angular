@@ -22,6 +22,11 @@ import { BgProgrammeComponent } from './pages/programme/bg-programme/bg-programm
 import { BgHomeComponent } from './pages/home/bg-home/bg-home.component';
 import { ChangerProgrammeComponent } from './pages/programme/changer-programme/changer-programme.component';
 import { AvisExercicesComponent } from './pages/programme/avis-exercices/avis-exercices.component';
+import { BgExercicesComponent } from './pages/exercices/bg-exercices/bg-exercices.component';
+import { ListeExercicesComponent } from './pages/exercices/liste-exercices/liste-exercices.component';
+import { TriComponent } from './pages/exercices/tri/tri.component';
+import { BgProfilComponent } from './pages/profil/bg-profil/bg-profil.component';
+import { ProfilPatientComponent } from './pages/profil/profil-patient/profil-patient.component';
 
 
 
@@ -47,6 +52,11 @@ import { AvisExercicesComponent } from './pages/programme/avis-exercices/avis-ex
     BgHomeComponent,
     ChangerProgrammeComponent,
     AvisExercicesComponent,
+    BgExercicesComponent,
+    ListeExercicesComponent,
+    TriComponent,
+    BgProfilComponent,
+    ProfilPatientComponent,
 
    
   

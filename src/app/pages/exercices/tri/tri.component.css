@@ -1,0 +1,61 @@
+.bloc {
+  height: 10%;
+  width: 90%;
+  margin: 0 5% 2% 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
+}
+.bloc .contenu {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-template-rows: 100%;
+  align-items: center;
+}
+.bloc .contenu h1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 0 0 5%;
+}
+.bloc .contenu .trier {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+  grid-template-rows: 100%;
+  align-items: center;
+}
+.bloc .contenu .trier label {
+  margin-left: 5%;
+}
+.bloc .contenu .trier input[type=checkbox] {
+  display: none;
+}
+.bloc .contenu .trier input[type=checkbox] + label::before {
+  content: "";
+  border: 1px solid #d61a20;
+  padding: 0 0.4rem;
+  margin-right: 0.3rem;
+}
+.bloc .contenu .trier input[type=checkbox]:checked + label::before {
+  background-color: #d61a20;
+}
+.bloc .contenu .trier .search {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background: url("https://api.iconify.design/bx/search-alt.svg?color=%23d61a20&height=60") no-repeat center center/contain;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.bloc .contenu .trier .search:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=tri.component.css.map */
