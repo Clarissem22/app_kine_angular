@@ -1,0 +1,13 @@
+.bloc {
+  height: 30%;
+  width: 70%;
+  margin-left: 5%;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+}
+.bloc .demo-inline-calendar-card {
+  width: 300px;
+}/*# sourceMappingURL=bilan.component.css.map */

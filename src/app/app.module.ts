@@ -1,5 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+
+
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,6 +33,7 @@ import { ListeExercicesComponent } from './pages/exercices/liste-exercices/liste
 import { TriComponent } from './pages/exercices/tri/tri.component';
 import { BgProfilComponent } from './pages/profil/bg-profil/bg-profil.component';
 import { ProfilPatientComponent } from './pages/profil/profil-patient/profil-patient.component';
+import { BilanComponent } from './pages/profil/bilan/bilan.component';
 import { HelloComponent } from './pages/home/hello/hello.component';
 
 
@@ -59,6 +66,7 @@ import { HelloComponent } from './pages/home/hello/hello.component';
     BgProfilComponent,
     ProfilPatientComponent,
     HelloComponent,
+    BilanComponent,
 
    
   
@@ -67,7 +75,9 @@ import { HelloComponent } from './pages/home/hello/hello.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDatepickerModule,
+    MatAutocompleteModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

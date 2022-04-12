@@ -6,11 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hello.component.scss']
 })
 export class HelloComponent implements OnInit {
-  date = new Date()
+  date : Date 
 
-  constructor() { }
+  constructor() {
+    this.date= new Date ();
+   }
 
   ngOnInit(): void {
+    
   }
 
 }
