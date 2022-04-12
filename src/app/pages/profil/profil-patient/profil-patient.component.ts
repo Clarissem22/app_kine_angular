@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profil-patient.component.scss']
 })
 export class ProfilPatientComponent implements OnInit {
-
+  date = new Date()
+  
   constructor() { }
-
+  
   ngOnInit(): void {
   }
-
+  
+  
 }
