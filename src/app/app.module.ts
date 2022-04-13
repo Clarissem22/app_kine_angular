@@ -5,6 +5,7 @@ import dayGridPlugin from '@fullcalendar/daygrid';
 import timegridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import scrollgridPlugin from '@fullcalendar/scrollgrid';
+import googleCalendarPlugin from '@fullcalendar/google-calendar';
 
 
 
@@ -40,10 +41,12 @@ import { HelloComponent } from './pages/home/hello/hello.component';
 
 
 FullCalendarModule.registerPlugins([ // register FullCalendar plugins
+
   dayGridPlugin,
   timegridPlugin,
   interactionPlugin,
   scrollgridPlugin,
+  googleCalendarPlugin,
 ]);
 
 
