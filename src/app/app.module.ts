@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {MatDatepickerModule} from '@angular/material/datepicker';
-import { MatAutocompleteModule } from '@angular/material/autocomplete';
-
+import { FullCalendarModule } from '@fullcalendar/angular';
+import dayGridPlugin from '@fullcalendar/daygrid';
+import timegridPlugin from '@fullcalendar/timegrid';
+import interactionPlugin from '@fullcalendar/interaction';
+import scrollgridPlugin from '@fullcalendar/scrollgrid';
 
 
 
@@ -37,7 +39,12 @@ import { BilanComponent } from './pages/profil/bilan/bilan.component';
 import { HelloComponent } from './pages/home/hello/hello.component';
 
 
-
+FullCalendarModule.registerPlugins([ // register FullCalendar plugins
+  dayGridPlugin,
+  timegridPlugin,
+  interactionPlugin,
+  scrollgridPlugin,
+]);
 
 
 @NgModule({
@@ -76,8 +83,8 @@ import { HelloComponent } from './pages/home/hello/hello.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    MatDatepickerModule,
-    MatAutocompleteModule,
+    FullCalendarModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

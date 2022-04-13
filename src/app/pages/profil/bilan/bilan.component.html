@@ -1,7 +1,6 @@
 <div class="bloc">
-  <mat-card class="demo-inline-calendar-card">
-  <mat-calendar [(selected)]="selected"></mat-calendar>
-</mat-card>
-<p>Selected date: {{selected}}</p>
+<button (click)="toggleWeekends()">toggle weekends</button>
 
-</div>
+<full-calendar #calendar [options]="calendarOptions"></full-calendar>
+<div>{{str}}</div>
+</div> 

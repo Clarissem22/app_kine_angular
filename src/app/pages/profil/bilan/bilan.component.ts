@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { CalendarOptions } from '@fullcalendar/angular';
+import { formatDate } from '@fullcalendar/angular';
+
+
 
 
 @Component({
@@ -7,13 +11,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bilan.component.scss']
 })
 export class BilanComponent implements OnInit {
-  selected: Date | null;
+  calendarOptions: CalendarOptions = {
+    initialView: 'dayGridMonth',
+    weekends: false
+  };
+  
+  toggleWeekends() {
+    this.calendarOptions.weekends = !this.calendarOptions.weekends // toggle the boolean!
+  }
   
   constructor() {
-    this.selected = new Date
    }
   
   ngOnInit(): void {
   }
+  
+  str = formatDate(new Date(), {
+    year: 'numeric',
+    day: 'numeric',
+    month: 'long',
+  });
+ 
   
 }
