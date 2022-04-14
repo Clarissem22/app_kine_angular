@@ -7,6 +7,31 @@ import { ExercicesService } from '../../../services/exercices.service';
   styleUrls: ['./programmejour.component.scss']
 })
 export class ProgrammejourComponent implements OnInit {
+  slide: string [] = ['./assets/img/exercices/planche1.jpg', './assets/img/exercices/ours1.jpg', './assets/img/exercices/grenouille1.jpg', './assets/img/exercices/rampe1.jpg',
+  './assets/img/exercices/retournement1.jpg', './assets/img/exercices/4pattes1.jpg', './assets/img/exercices/transfertàsyrene1.jpg', './assets/img/exercices/escalier1.jpg'  ]
+  i=0 ;
+  slides: string [] = ['Planche', 'Ours', 'Grenouille', 'Rampe', 'Retournement', '4 Pattes', 'Transfert à sirène', 'Escalier' ]
+  j=0;
+
+  getSlide() {
+    
+      return this.slide[this.i]  ;
+  }
+  getSlides() {
+    return this.slides[this.j];
+}
+
+  getPrev() {
+      this.i = this.i===0 ? 0 : this.i - 1;
+      this.j = this.j===0 ? 0 : this.j -1
+  }
+//edit here    
+  getNext() {
+      this.i = this.i===this.slides.length-1 ? this.i : this.i + 1;
+      this.j = this.j===this.slide.length-1 ? this.j : this.j +1;
+  }
+
+
 
   exercices:any = [
     {
@@ -46,12 +71,9 @@ export class ProgrammejourComponent implements OnInit {
       duree : "5",
       repetition : "5",
       experience : "10"
-  }
-
- 
-  ];
-
-  exercices2:any = [
+  },
+]
+exercices2: any = [
   {
     id : "5",
     image : "retournement1.jpg",

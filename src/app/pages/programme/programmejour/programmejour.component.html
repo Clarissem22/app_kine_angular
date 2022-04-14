@@ -13,19 +13,24 @@
     </div>
   </div>
 
-  <div class="contenu">
-    <button><img src="assets/img/btn_left.png" alt="" /></button>
-    <div class="videos">
-    <div class="video"  *ngFor="let exercice of exercices">
-      <div class="img">
-        <img src="assets/img/exercices/{{ exercice.image }}" />
-      </div>
-      <div class="nom">
-        <div >{{ exercice.nom }}</div>
-      </div>
-    </div>
-    </div>
+<div id="carouselExampleControls" class="contenu slide" data-ride="carousel">
 
-    <button><img src="assets/img/btn_right.png" alt="" /></button>
+ <button (click)='getPrev()'> <img src="assets/img/btn_left.png" alt="previous" /></button>
+ <div class="videos">
+  <div class="video" *ngFor="let exercice of exercices" role="listbox">
+  <div class="img">
+      <img src="{{ getSlide() }}" alt="slide" >
+      </div>
+    <div class="nom">
+       <div >{{ getSlides() }}</div>
+     </div>
+
   </div>
 </div>
+
+ <button (click)='getNext()'><img src="assets/img/btn_right.png" alt="next" /></button>
+
+</div>
+
+
+ 
