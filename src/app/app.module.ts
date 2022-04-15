@@ -9,7 +9,6 @@ import googleCalendarPlugin from '@fullcalendar/google-calendar';
 
 
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -38,6 +37,9 @@ import { BgProfilComponent } from './pages/profil/bg-profil/bg-profil.component'
 import { ProfilPatientComponent } from './pages/profil/profil-patient/profil-patient.component';
 import { BilanComponent } from './pages/profil/bilan/bilan.component';
 import { HelloComponent } from './pages/home/hello/hello.component';
+import { NgImageSliderModule } from 'ng-image-slider';
+import { CarrousselComponent } from './pages/programme/carroussel/carroussel.component';
+
 
 
 FullCalendarModule.registerPlugins([ // register FullCalendar plugins
@@ -77,7 +79,7 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     ProfilPatientComponent,
     HelloComponent,
     BilanComponent,
-
+    CarrousselComponent,
    
   
   ],
@@ -87,6 +89,7 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     BrowserAnimationsModule,
     HttpClientModule,
     FullCalendarModule,
+    NgImageSliderModule,
 
   ],
   providers: [],
