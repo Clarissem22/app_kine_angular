@@ -4,12 +4,12 @@
       <img src="assets/img/photoProfil.png" alt="" />
     </div>
     <div class="infos">
-    <div>Nom Patient</div>
-    <div>Prénom Patient</div>
-    <div>Date de naissance</div>
-    <div>Suivi par :</div>
-    <div>Humeur du jour</div>
-        <div><img src="/assets/img/smiley.png"></div>
+        <div>{{nom}}</div>
+        <div>{{prenom}}</div>
+        <div>{{naissance}}</div>
+        <div>Suivi par : {{kine}}</div>
+        <div>Humeur du jour:</div>
+        <div><img [src]="humeur"></div>
     </div>
-  </div>   
+  </div>
 </div>

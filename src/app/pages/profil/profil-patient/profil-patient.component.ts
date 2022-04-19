@@ -8,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class ProfilPatientComponent implements OnInit {
   
   constructor() { }
-  
-  ngOnInit(): void {
-  }
-  
-  
+  nom!:string;
+  prenom!:string;
+  naissance!:string;
+  kine!:string;
+  humeur!:string;
+
+ ngOnInit(): void {
+   this.nom ="Charles";
+   this.prenom="Bouveret"
+   this.naissance = "28 Novembre 1995";
+   this.kine = "Marin Poloni";
+   this.humeur = "/assets/img/smiley.png";
+ }
 }

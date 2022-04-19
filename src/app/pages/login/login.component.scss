@@ -24,6 +24,11 @@ body {
         display: flex;
         flex-direction: column;
 
+        h1{
+            font-weight: 500;
+            font-size: 2vw;
+          }
+          
         form {
             display: flex;
             flex-direction: column;
