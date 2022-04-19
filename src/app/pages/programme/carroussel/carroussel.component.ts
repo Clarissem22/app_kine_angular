@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CarrousselComponent implements OnInit {
   imgCollection: Array<object> = [
     {
-      image: 'https://www.youtube.com/embed/lZa_JcG4VpA?start=8',
+      image: './assets/img/exercices/planche2.jpg',
       thumbImage: './assets/img/exercices/planche1.jpg',
       alt: 'Image 1',
       title: 'Planche'
