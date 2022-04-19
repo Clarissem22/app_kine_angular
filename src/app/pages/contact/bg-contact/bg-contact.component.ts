@@ -6,11 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bg-contact.component.scss']
 })
 export class BgContactComponent implements OnInit {
-  linkNotifications= "notifications"
-  linkContact = "contact"
   constructor() { }
+  title!:string;
+  notification!:string;
+  don!:string;
 
   ngOnInit(): void {
+    this.title = "Contact";
+    this.notification="/assets/img/bell.png";
+    this.don="/assets/img/donations.png";
   }
+  linkNotifications= "notifications"
+  linkContact = "contact"
 
 }

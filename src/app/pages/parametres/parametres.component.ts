@@ -36,9 +36,13 @@ export class ParametresComponent implements OnInit {
     },
 
   ]
-  constructor() { }
-
+  title!:string;
+  notification!:string;
+  don!:string;
   ngOnInit(): void {
+    this.title = "Paramètres";
+    this.notification="/assets/img/bell.png";
+    this.don="/assets/img/donations.png";
   }
 
 }

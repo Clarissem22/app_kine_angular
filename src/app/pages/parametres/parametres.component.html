@@ -2,10 +2,10 @@
 <app-navbar></app-navbar>
 <article class="background">
     <div class="head">
-        <h1>Paramètres</h1>
+        <h1>{{title}}</h1>
           <div class="imghead">
-              <a routerLink = "/contact ">  <img src="/assets/img/donations.png"></a>
-              <a routerLink = "/notification">  <img src="/assets/img/bell.png"></a>
+              <a routerLink = "/contact ">  <img [src]="don"></a>
+              <a routerLink = "/notification">  <img [src]="notification"></a>
           </div>
     </div>
     <div class="block">
