@@ -13,6 +13,7 @@ export class ProfilPatientComponent implements OnInit {
   naissance!:string;
   kine!:string;
   humeur!:string;
+  photo!:string;
 
  ngOnInit(): void {
    this.nom ="Charles";
@@ -20,5 +21,6 @@ export class ProfilPatientComponent implements OnInit {
    this.naissance = "28 Novembre 1995";
    this.kine = "Marin Poloni";
    this.humeur = "/assets/img/smiley.png";
+   this.photo = "assets/img/photoProfil.png";
  }
 }
