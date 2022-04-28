@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
 <body>
-      <div class="container">
-     <a routerLink="/home"><img src ="../assets/img/logologin.png"></a>
-     <h1 class="h3 mb-3 font-weight-normal">Inscription</h1>
-        <div class="formcontainer">
+ <div class="container">
+      <img [src] ="logo">
+      <h1 class="h3 mb-3 font-weight-normal">Inscription</h1>
+      <form method="post">
+        <div class="inputcontainer">
+            <label for="inputNom">Nom</label>
+            <input type="text" name="nom" id="inputNom" class="form-control" >
+            <label for="inputPrenom">Prenom</label>
+            <input type="text" name="prenom" id="inputPrenom" class="form-control" >
+            <label for="inputKine">Kine</label>
+            <input type="text" name="kine" id="inputKine" class="form-control" >
+            <label for="inputAdresse">Adresse</label>
+            <input type="text" name="adresse" id="inputAdresse" class="form-control" >
+            <input type="hidden" name="_csrf_token" >
         </div>
-        <div class ="btncontainer">
-        <button class="btn btn-lg btn-primary btn-inscription" type="submit">S'INSCRIRE</button>
+        <div class="btncontainer">
+            <button (click)="toInscription()" class="btn btn-lg btn-primary btn-inscription">S'INSCRIRE</button>
         </div>
-     </div>
+    </form>
+ </div>
 </body>
-</html>
-
