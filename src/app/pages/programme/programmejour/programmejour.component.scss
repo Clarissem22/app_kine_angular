@@ -10,14 +10,13 @@
 
   .top {
     width: 100%;
-    height: 30%;
+    height: 40%;
     display: flex;
-    justify-content: center;
     align-items: center;
 
     .titre {
       width: 70%;
-      height: 100%;
+      height: 20%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -34,7 +33,7 @@
         margin-top : 2%;
       }
 
-      
+
       button {
         height: 50px;
         width: 50px;
@@ -72,7 +71,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 
 
     button {
@@ -90,7 +89,7 @@
       }
     }
 
-    
+
     .videos{
       height: 90%;
       width: 90%;
@@ -106,7 +105,7 @@
       flex-direction: column;
       margin-right: 10%;
 
- 
+
 
       &:hover{
         transform : scale(1.1);
