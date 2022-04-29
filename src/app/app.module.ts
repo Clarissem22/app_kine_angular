@@ -6,9 +6,6 @@ import timegridPlugin from '@fullcalendar/timegrid';
 import interactionPlugin from '@fullcalendar/interaction';
 import scrollgridPlugin from '@fullcalendar/scrollgrid';
 import googleCalendarPlugin from '@fullcalendar/google-calendar';
-
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -21,9 +18,9 @@ import { LoginComponent } from './pages/login/login.component';
 import { DonComponent } from './pages/don/don.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { NavbarComponent } from './pages/components/navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BackgroundComponent } from './components/background/background.component';
+import { BackgroundComponent } from './pages/components/background/background.component';
 import { ProgrammejourComponent } from './pages/programme/programmejour/programmejour.component';
 import { HttpClientModule } from '@angular/common/http';
 import { BgProgrammeComponent } from './pages/programme/bg-programme/bg-programme.component';
@@ -38,11 +35,13 @@ import { ProfilPatientComponent } from './pages/profil/profil-patient/profil-pat
 import { BilanComponent } from './pages/profil/bilan/bilan.component';
 import { HelloComponent } from './pages/home/hello/hello.component';
 import { NgImageSliderModule } from 'ng-image-slider';
-import { CarrousselComponent } from './pages/programme/carroussel/carroussel.component';
-import { AccordionComponent } from './components/accordion/accordion.component';
-import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { CarrousselComponent } from './pages/components/carroussel/carroussel.component';
+import { ProgressBarComponent } from './pages/components/progress-bar/progress-bar.component';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { BgContactComponent } from './pages/contact/bg-contact/bg-contact.component';
+import { CdkAccordionComponent } from './pages/components/cdk-accordion/cdk-accordion.component';
+import {CdkAccordionModule} from '@angular/cdk/accordion';
+
 
 
 
@@ -84,11 +83,13 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     HelloComponent,
     BilanComponent,
     CarrousselComponent,
-    AccordionComponent,
     ProgressBarComponent,
     BgContactComponent,
-   
-  
+    CdkAccordionComponent,
+
+
+
+
   ],
   imports: [
     BrowserModule,
@@ -97,6 +98,7 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     HttpClientModule,
     FullCalendarModule,
     NgImageSliderModule,
+    CdkAccordionModule
 
   ],
   providers: [],

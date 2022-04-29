@@ -16,7 +16,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
         .titre {
           width: 70%;
           height: 100%;
@@ -30,13 +30,13 @@
           display: flex;
           justify-content: center;
           align-items: center;
-    
+
           p{
             margin-right: 3%;
             margin-top : 2%;
           }
-    
-          
+
+
           button {
             height: 50px;
             width: 50px;
@@ -51,14 +51,14 @@
             display: flex;
             justify-content: center;
             align-items: center;
-    
-    
+
+
             &:hover{
               transform : scale(1.1);
               transition: 0.3s;
-    
+
             }
-    
+
             img{
               height: 70%;
               display: flex;
@@ -69,15 +69,23 @@
       }
 
       .carroussel {
-        height: 70%;
+        height: 80%;
         width: 80%;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        
-    ng-image-slider{
-        height: 90%;
-        width: 100%;    
+
+       ng-image-slider{
+            height: 90%;
+            width: 100%;
+
+            .caption{
+              height: 100%;
+            }
+
+            .image{
+              height: 100%;
+            }
+
     }
 }
 }
