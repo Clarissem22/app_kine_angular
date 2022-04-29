@@ -1,85 +1,76 @@
 .all{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     width: 100%;
-  
-  
-  .container{
-          height: 60% ;
-          width: 100%;
+
+  .gros-bloc{
+
           display: flex;
-          text-align: center;
           justify-content: center;
           align-items: center;
-  
+          text-align: center;
+          width: 50%;
+
+
           .wrap{
-            height: 40%;
             width: 70%;
-            margin: 3% 0 0 5%;
+            height: 100%;
             border-radius: 25px;
             background-color: white;
             box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
-  
+
               .top{
-  
+
                   h1{
                     font-weight: 500;
+
                   }
-  
               }
-  
+
               .exocontainer{
               display: grid;
               grid-template-columns: repeat(2, 1fr);
               grid-template-rows: repeat(1, 1fr);
               font-size: 1.5em;
-              gap: 1.9vw;
-              justify-items: start;
-  
-  
+              gap: 1em;
+
                 .exo{
-  
+
                     div{
                       font-style: italic;
                       font-weight: 500;
-  
                     }
-  
                 }
-  
             }
-  
           }
-  
+
           .bloc {
-            height: 40%;
+            height: 100%;
             width: 70%;
-            margin: 3% 0 0 5%;
             display: flex;
             flex-direction: column;
             border-radius: 25px;
             background-color: white;
             box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
-  
-  
+
+
               .top{
                   display: flex;
                   flex-direction: column;
-                  height: 14vw;
+                  height: 100%;
                   width: 100%;
                   justify-content: center;
                   align-items: center;
                   gap: 0.5vw;
-  
+
                   h1{
                       display: flex;
                       justify-content: center;
                       align-items: center;
                       font-weight: 500;
-  
+
                     }
-  
+
                   button{
                       height: 3vw;
                       width: 60%;
@@ -91,13 +82,13 @@
                       outline: inherit;
                       background-color: #d61a20;
                       border-radius: 20px;
-  
+
                       &:hover{
                           transform: scale(1.1);
                           transition: 0.3s;
                       }
                     }
-    }
-  }
-  }
-  }
+                  }
+               }
+            }
+   }

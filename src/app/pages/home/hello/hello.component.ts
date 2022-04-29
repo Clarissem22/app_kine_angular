@@ -9,6 +9,7 @@ export class HelloComponent implements OnInit {
   date : Date;
   nom!: string;
   photo!:string;
+  nbrexo!:number;
 
   constructor() {
     this.date= new Date ();
@@ -17,6 +18,7 @@ export class HelloComponent implements OnInit {
   ngOnInit(): void {
     this.nom = "Charles";
     this.photo = "assets/img/photoProfil.png";
+    this.nbrexo = 2;
   }
 
 }
