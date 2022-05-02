@@ -43,6 +43,7 @@ import {CdkAccordionModule} from '@angular/cdk/accordion';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
 import { ProgressBarComponent } from './pages/components/progress-bar/progress-bar.component';
+import { httpInterceptorProviders } from './interceptors/index';
 
 
 
@@ -107,7 +108,7 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
 
 
   ],
-  providers: [],
+  providers: [httpInterceptorProviders],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 
