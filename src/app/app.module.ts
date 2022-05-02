@@ -43,7 +43,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { httpInterceptorProviders } from './interceptors/index';
 import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
-import { LoginComponent } from './pages/login/login.component';
+import { LoginComponent } from './auth/components/login/login.component';
 
 
 
