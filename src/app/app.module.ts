@@ -41,6 +41,8 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { BgContactComponent } from './pages/contact/bg-contact/bg-contact.component';
 import { CdkAccordionComponent } from './pages/components/cdk-accordion/cdk-accordion.component';
 import {CdkAccordionModule} from '@angular/cdk/accordion';
+import { ReactiveFormsModule } from '@angular/forms';
+import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
 
 
 
@@ -86,6 +88,7 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     ProgressBarComponent,
     BgContactComponent,
     CdkAccordionComponent,
+    ContactKineComponent,
 
 
 
@@ -98,7 +101,9 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     HttpClientModule,
     FullCalendarModule,
     NgImageSliderModule,
-    CdkAccordionModule
+    CdkAccordionModule,
+    ReactiveFormsModule,
+
 
   ],
   providers: [],

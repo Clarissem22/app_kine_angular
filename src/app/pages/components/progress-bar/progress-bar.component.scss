@@ -32,7 +32,7 @@
       -webkit-appearance: none;
       appearance: none;
       border-radius: 15px;
-      box-shadow: 0 0 20px #e4e4e4 ;
+      box-shadow: 0 0 20px #e4e4e4;
       margin-left: 20px;
     }
 
@@ -56,7 +56,6 @@
       width: 100%;
       height: 30%;
     }
-
   }
 
   .level {
@@ -73,41 +72,37 @@
       text-align: center;
       flex-wrap: wrap;
       flex-direction: column;
-    
-    span{
+
+      span {
         height: 100px;
         width: 100px;
         border-radius: 100%;
         color: white;
-        font-size:40px;
+        font-size: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
+      }
+      .lev {
+        background-color: #d61a20;
+      }
+
+      .nextlev {
+        background-color: blue;
+      }
+
+      .exosem {
+        background-color: black;
+      }
+
+      .exomois {
+        background-color: purple;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+      }
     }
-        .lev{
-          background-color: #d61a20;
-
-        }
-
-        .nextlev{
-          background-color: blue;
-        }
-
-        .exosem{
-          background-color: black;
-        }
-
-        .exomois{
-          background-color: purple;
-
-        }
-
-        &:hover{
-          transform: scale(1.1);
-          transition: 0.3s;
-
-          }
-    
-}
   }
 }
