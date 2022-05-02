@@ -40,11 +40,10 @@ import { BgContactComponent } from './pages/contact/bg-contact/bg-contact.compon
 import { CdkAccordionComponent } from './pages/components/cdk-accordion/cdk-accordion.component';
 import {CdkAccordionModule} from '@angular/cdk/accordion';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
-import { ProgressBarComponent } from './pages/components/progress-bar/progress-bar.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { httpInterceptorProviders } from './interceptors/index';
-import { AuthModule } from './auth/auth.module';
-import { LoginComponent } from './auth/components/login/login.component';
+import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
+import { LoginComponent } from './pages/login/login.component';
 
 
 
@@ -92,13 +91,9 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     CdkAccordionComponent,
     ContactKineComponent,
     ProgressBarComponent,
-    LoginComponent,
-
-
-
-
-
+    LoginComponent
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -108,7 +103,6 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     NgImageSliderModule,
     CdkAccordionModule,
     ReactiveFormsModule,
-    AuthModule,
 
 
 
