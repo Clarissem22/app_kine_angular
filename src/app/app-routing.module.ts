@@ -10,11 +10,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { DonComponent } from './pages/don/don.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
-<<<<<<< HEAD
 import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
-=======
-
->>>>>>> 087dca95d4fe5d5b02e2d9567f9ef2edfea405a1
 
 const routes: Routes = [
   {path: "home", component: HomeComponent },
