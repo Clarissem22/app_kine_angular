@@ -28,5 +28,34 @@
             }
         }
     }
-}
 
+    .all-div{
+      display: flex;
+      flex-direction: column;
+      height: 90%;
+
+
+          .hello-bilan{
+            display: flex;
+            align-items: center;
+            height: 25%;
+            gap: 4vw;
+          }
+          .progress-carroussel{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 75%;
+
+                .progress{
+                  height: 30%;
+                }
+                .carroussel{
+                  height: 45%;
+                }
+
+
+          }
+
+    }
+}

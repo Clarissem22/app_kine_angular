@@ -1,6 +1,8 @@
 .background{
     background-color: #E2E2E2;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
     margin: 2%;
     width: 85vw;
     height: 95%;
@@ -33,6 +35,7 @@
         display: flex;
         flex-direction: column;
         gap: 7vw;
+        margin-top: 7%;
       }
 
 }
