@@ -1,108 +1,115 @@
 .bloc {
-  height: 90%;
-  width: 90%;
-  margin-left: 5%;
-  border-radius: 25px;
-  background-color: white;
-  box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 15% 35% 45%;
-  justify-content: center;
-
-  .title {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    font-size: 30px;
-    margin-left: 10%;
-  }
-  .progress-bar-container {
     height: 100%;
     width: 90%;
-    margin-left: 2%;
-    position: relative;
-    display: flex;
-    align-items: center;
-
-    progress[value] {
+    margin-left: 5%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 35% 45%;
+    justify-content: center;
+  
+    .title {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      font-size: 30px;
+      margin-left: 10%;
+    }
+    .progress-bar-container {
+      height: 100%;
+      width: 90%;
+      margin-left: 2%;
+      position: relative;
+      display: flex;
+      align-items: center;
+  
+      progress[value] {
+        width: 100%;
+        height: 100%;
+        -webkit-appearance: none;
+        appearance: none;
+        border-radius: 15px;
+        box-shadow: 0 0 20px #e4e4e4 ;
+        margin-left: 20px;
+      }
+  
+      progress[value]::-webkit-progress-bar {
+        background-color: #e4e4e4;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px #e4e4e4 inset;
+        width: 100%;
+      }
+  
+      progress[value]::-webkit-progress-value {
+        position: relative;
+        background-color: #d61a20;
+        border-radius: 10px;
+        width: 100%;
+      }
+  
+      .progress-bar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30%;
+      }
+  
+    }
+  
+    .level {
       width: 100%;
       height: 100%;
-      -webkit-appearance: none;
-      appearance: none;
-      border-radius: 15px;
-      box-shadow: 0 0 20px #e4e4e4;
-      margin-left: 20px;
-    }
-
-    progress[value]::-webkit-progress-bar {
-      background-color: #e4e4e4;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px #e4e4e4 inset;
-      width: 100%;
-    }
-
-    progress[value]::-webkit-progress-value {
-      position: relative;
-      background-color: #d61a20;
-      border-radius: 10px;
-      width: 100%;
-    }
-
-    .progress-bar {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 30%;
-    }
-  }
-
-  .level {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-row: 100%;
-
-    div {
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      text-align: center;
-      flex-wrap: wrap;
-      flex-direction: column;
-
-      span {
-        height: 100px;
-        width: 100px;
-        border-radius: 100%;
-        color: white;
-        font-size: 40px;
+      display: grid;
+      grid-template-columns: 25% 25% 25% 25%;
+      align-items: center;
+      grid-row: 100%;
+  
+      div {
         display: flex;
         justify-content: center;
+        align-content: center;
+        text-align: center;
         align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+  span{
+          height: 60px;
+          width: 60px;
+          border-radius: 100%;
+          color: white;
+          font-size:40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
       }
-      .lev {
-        background-color: #d61a20;
-      }
-
-      .nextlev {
-        background-color: blue;
-      }
-
-      .exosem {
-        background-color: black;
-      }
-
-      .exomois {
-        background-color: purple;
-      }
-
-      &:hover {
-        transform: scale(1.1);
-        transition: 0.3s;
-      }
+          .lev{
+            background-color: #d61a20;
+  
+          }
+  
+          .nextlev{
+            background-color: blue;
+          }
+  
+          .exosem{
+            background-color: black;
+          }
+  
+          .exomois{
+            background-color: purple;
+  
+          }
+  
+          &:hover{
+            transform: scale(1.1);
+            transition: 0.3s;
+  
+            }
+  
+  }
     }
   }
-}
+  
