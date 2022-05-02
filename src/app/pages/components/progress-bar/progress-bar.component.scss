@@ -1,5 +1,5 @@
 .bloc {
-    height: 100%;
+    height: 90%;
     width: 90%;
     margin-left: 5%;
     border-radius: 25px;
@@ -9,7 +9,7 @@
     grid-template-columns: 100%;
     grid-template-rows: 15% 35% 45%;
     justify-content: center;
-  
+
     .title {
       display: flex;
       align-items: center;
@@ -25,7 +25,7 @@
       position: relative;
       display: flex;
       align-items: center;
-  
+
       progress[value] {
         width: 100%;
         height: 100%;
@@ -35,30 +35,30 @@
         box-shadow: 0 0 20px #e4e4e4 ;
         margin-left: 20px;
       }
-  
+
       progress[value]::-webkit-progress-bar {
         background-color: #e4e4e4;
         border-radius: 10px;
         box-shadow: 0 2px 5px #e4e4e4 inset;
         width: 100%;
       }
-  
+
       progress[value]::-webkit-progress-value {
         position: relative;
         background-color: #d61a20;
         border-radius: 10px;
         width: 100%;
       }
-  
+
       .progress-bar {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 30%;
       }
-  
+
     }
-  
+
     .level {
       width: 100%;
       height: 100%;
@@ -66,7 +66,7 @@
       grid-template-columns: 25% 25% 25% 25%;
       align-items: center;
       grid-row: 100%;
-  
+
       div {
         display: flex;
         justify-content: center;
@@ -87,29 +87,28 @@
       }
           .lev{
             background-color: #d61a20;
-  
+
           }
-  
+
           .nextlev{
             background-color: blue;
           }
-  
+
           .exosem{
             background-color: black;
           }
-  
+
           .exomois{
             background-color: purple;
-  
+
           }
-  
+
           &:hover{
             transform: scale(1.1);
             transition: 0.3s;
-  
+
             }
-  
+
   }
     }
   }
-  

@@ -40,6 +40,15 @@
             align-items: center;
             height: 25%;
             gap: 4vw;
+
+              .calendly-inline-widget{
+                background-color: #f8f8f8;
+                height: 100%;
+                width: 40%;
+                border-radius: 25px;
+              }
+
+
           }
           .progress-carroussel{
             display: flex;

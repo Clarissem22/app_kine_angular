@@ -15,6 +15,7 @@ export class BgHomeComponent implements OnInit {
     this.title = "Accueil";
     this.notification="/assets/img/bell.png";
     this.don="/assets/img/donations.png";
+
   }
 
   linkNotifications= "notifications"

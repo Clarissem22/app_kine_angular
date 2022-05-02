@@ -39,10 +39,10 @@ import { CarrousselComponent } from './pages/components/carroussel/carroussel.co
 import { ProgressBarHomeComponent } from './pages/components/progress-bar-home/progress-bar-home.component';
 import { BgContactComponent } from './pages/contact/bg-contact/bg-contact.component';
 import { CdkAccordionComponent } from './pages/components/cdk-accordion/cdk-accordion.component';
-import {CdkAccordionModule} from '@angular/cdk/accordion';
+import {CdkAccordionModule } from '@angular/cdk/accordion';
 import { ReactiveFormsModule } from '@angular/forms';
-import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
 import { ProgressBarComponent } from './pages/components/progress-bar/progress-bar.component';
+
 
 
 
@@ -85,11 +85,11 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     HelloComponent,
     BilanComponent,
     CarrousselComponent,
-    ProgressBarHomeComponent,
     BgContactComponent,
     CdkAccordionComponent,
-    ContactKineComponent,
+    ProgressBarHomeComponent,
     ProgressBarComponent
+
 
 
 
@@ -103,8 +103,7 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     FullCalendarModule,
     NgImageSliderModule,
     CdkAccordionModule,
-    ReactiveFormsModule,
-
+    ReactiveFormsModule
 
   ],
   providers: [],
