@@ -14,7 +14,6 @@ import { ExercicesComponent } from './pages/exercices/exercices.component';
 import { ProfilComponent } from './pages/profil/profil.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ParametresComponent } from './pages/parametres/parametres.component';
-import { LoginComponent } from './pages/login/login.component';
 import { DonComponent } from './pages/don/don.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
@@ -44,6 +43,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
 import { ProgressBarComponent } from './pages/components/progress-bar/progress-bar.component';
 import { httpInterceptorProviders } from './interceptors/index';
+import { AuthModule } from './auth/auth.module';
+import { LoginComponent } from './auth/components/login/login.component';
 
 
 
@@ -90,7 +91,9 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     BgContactComponent,
     CdkAccordionComponent,
     ContactKineComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    LoginComponent,
+
 
 
 
@@ -105,6 +108,9 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     NgImageSliderModule,
     CdkAccordionModule,
     ReactiveFormsModule,
+    AuthModule,
+
+
 
 
   ],

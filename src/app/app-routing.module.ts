@@ -6,11 +6,11 @@ import { ExercicesComponent } from './pages/exercices/exercices.component';
 import { ProfilComponent } from './pages/profil/profil.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ParametresComponent } from './pages/parametres/parametres.component';
-import { LoginComponent } from './pages/login/login.component';
 import { DonComponent } from './pages/don/don.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
 import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
+import { LoginComponent } from './auth/components/login/login.component';
 
 const routes: Routes = [
   {path: "home", component: HomeComponent },
