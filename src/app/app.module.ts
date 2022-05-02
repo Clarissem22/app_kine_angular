@@ -35,7 +35,6 @@ import { BilanComponent } from './pages/profil/bilan/bilan.component';
 import { HelloComponent } from './pages/home/hello/hello.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { CarrousselComponent } from './pages/components/carroussel/carroussel.component';
-import { ProgressBarHomeComponent } from './pages/components/progress-bar-home/progress-bar-home.component';
 import { BgContactComponent } from './pages/contact/bg-contact/bg-contact.component';
 import { CdkAccordionComponent } from './pages/components/cdk-accordion/cdk-accordion.component';
 import {CdkAccordionModule} from '@angular/cdk/accordion';
@@ -86,12 +85,11 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     HelloComponent,
     BilanComponent,
     CarrousselComponent,
-    ProgressBarHomeComponent,
     BgContactComponent,
     CdkAccordionComponent,
     ContactKineComponent,
     ProgressBarComponent,
-    LoginComponent
+    LoginComponent,
   ],
 
   imports: [
