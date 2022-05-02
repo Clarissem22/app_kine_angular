@@ -10,7 +10,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { DonComponent } from './pages/don/don.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
-import { NavbarComponent } from './pages/components/navbar/navbar.component';
+
 
 const routes: Routes = [
   {path: "home", component: HomeComponent },
