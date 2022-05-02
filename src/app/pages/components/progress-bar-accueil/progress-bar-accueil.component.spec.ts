@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProgressBarHomeComponent } from './progress-bar-home.component';
+import { ProgressBarAccueilComponent } from './progress-bar-accueil.component';
 
-describe('ProgressBarComponent', () => {
-  let component: ProgressBarHomeComponent;
-  let fixture: ComponentFixture<ProgressBarHomeComponent>;
+describe('ProgressBarAccueilComponent', () => {
+  let component: ProgressBarAccueilComponent;
+  let fixture: ComponentFixture<ProgressBarAccueilComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProgressBarHomeComponent ]
+      declarations: [ ProgressBarAccueilComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ProgressBarHomeComponent);
+    fixture = TestBed.createComponent(ProgressBarAccueilComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
