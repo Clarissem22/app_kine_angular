@@ -41,7 +41,6 @@ import { CdkAccordionComponent } from './pages/components/cdk-accordion/cdk-acco
 import {CdkAccordionModule } from '@angular/cdk/accordion';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProgressBarComponent } from './pages/components/progress-bar/progress-bar.component';
-
 import { httpInterceptorProviders } from './interceptors';
 
 

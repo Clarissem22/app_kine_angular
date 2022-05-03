@@ -1,11 +1,13 @@
-.background{
+  .background{
     background-color: #E2E2E2;
     border-radius: 25px;
+    width: 85vw;
+    height: 90vh;
+    margin: 2%;
     display: flex;
     flex-direction: column;
-    margin: 2%;
-    width: 85vw;
-    height: 95%;
+    justify-content: space-around;
+
 
     .head{
         width: 100%;
@@ -28,15 +30,32 @@
             a{
                 margin-right: 3%;
             }
-
         }
     }
-    .container{
-        display: flex;
-        flex-direction: column;
-        gap: 7vw;
-        margin-top: 7%;
-      }
+
+    .carrou-prog{
+      height: 45%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .change-avis{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-evenly;
+
+        .changeprog{
+          width: 40%;
+        }
+
+        .avis{
+          width: 40%;
+        }
+
+    }
 
 }
 

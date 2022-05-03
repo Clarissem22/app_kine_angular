@@ -1,6 +1,5 @@
 .bloc {
-    height: 30%;
-    width: 80%;
+    width: 70%;
     margin: 0 0 3% 20%;
     border-radius: 25px;
     background-color: white;
@@ -10,28 +9,29 @@
     align-items: center;
 
     .contenu{
-        height: 90%;
+        height: 100%;
         width: 95%;
         display: flex;
         justify-content: center;
-       align-items: center;
+        align-items: center;
+        gap: 4%;
 
-       .img{
-           height: 90%;
+        .img{
+            height: 100%;
 
-           margin: 2%;
+              h1{
+                font-size: 150%;
+              }
+            img{
+              height: 10vw;
+              width: 10vw;
 
-           img{
-           object-fit: cover;
-           height: 90%;
-           }
+            }
 
-       }
-
-
+          }
     }
 
-    }
+  }
 
 
 

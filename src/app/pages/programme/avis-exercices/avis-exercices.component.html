@@ -1,13 +1,10 @@
-<div class="bloc">
-  <div class="top">
-    <h1>Avis exercices</h1>
-  </div>
-  <div class="container">
-
-   <div class="exo"  *ngFor="let exo of exos">
-      
+<div class="gros-bloc">
+    <div class="top">
+        <h1>Avis exercices</h1>
+    </div>
+    <div class="exocontainer">
+        <div class="exo" *ngFor="let exo of exos">
         <div>{{ exo.nom }} </div>
-        
-
-  </div>
+    </div>
+    </div>
 </div>

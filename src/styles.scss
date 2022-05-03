@@ -37,12 +37,10 @@ $app_kine_angular-theme: mat.define-light-theme((
 
 *{margin: 0; padding: 0;}
 html, body { height: 100%; }
-body { 
-  margin: 0; 
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+body {
+  margin: 0;
   padding: 0;
-  height: 100%;
-  display:grid;
-  grid-template-columns : 20 80%;
-  grid-template-rows : 100%;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  height: 100vh;
+  width:100vw;
   background-color: #dbdbdb; }

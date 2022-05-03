@@ -1,7 +1,5 @@
-.bloc {
-    height: 30%;
-    width: 45%;
-    margin: 3% 0 0 5%;
+.gros-bloc {
+    height: 40%;
     display: flex;
     flex-direction: column;
     border-radius: 25px;
@@ -9,31 +7,36 @@
     box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
 
     .top{
-        height: 20%;
+        height: 100%;
         width: 100%;
         display: flex;
         justify-content: center;
-        
+
         h1{
-            height: 100%;
-            width: 100%;
+
             display: flex;
             justify-content: center;
             align-items: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 600;
         }
     }
 
-    .container{
-        height: 80% ;
+    .exocontainer{
+        height: 100% ;
         width: 100%;
-        display: flex;
-        flex-direction: column;
+        margin: 1%;
         text-align: center;
         justify-content: center;
         align-items: center;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(3, 1fr);
+        font-weight: 600;
+        font-size: 1.5em;
+        gap:1vw ;
+        font-style:italic;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         }
 
     }

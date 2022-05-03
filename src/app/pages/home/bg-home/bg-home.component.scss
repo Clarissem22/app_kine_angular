@@ -4,6 +4,9 @@
     margin: 2%;
     width: 85vw;
     height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .head {
         width: 100%;
@@ -33,31 +36,44 @@
       display: flex;
       flex-direction: column;
       height: 90%;
+      width: 100%;
 
 
           .hello-bilan{
             display: flex;
             align-items: center;
-            height: 25%;
-            gap: 4vw;
+            height: 20%;
+
+
+
+              .hello{
+                width:48%;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 600;
+                font-size: 130%;
+              }
 
               .calendly-inline-widget{
-                background-color: #f8f8f8;
                 height: 100%;
-                width: 40%;
+                width: 30%;
                 border-radius: 25px;
+                margin-left: 12%;
               }
 
 
           }
+
+
           .progress-carroussel{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            height: 75%;
+            height: 90%;
 
-                .progress{
+                .progress-bar-home{
                   height: 30%;
+                  width: 100%;
+
                 }
                 .carroussel{
                   height: 45%;
