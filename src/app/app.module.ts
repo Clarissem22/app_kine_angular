@@ -14,7 +14,6 @@ import { ExercicesComponent } from './pages/exercices/exercices.component';
 import { ProfilComponent } from './pages/profil/profil.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ParametresComponent } from './pages/parametres/parametres.component';
-import { LoginComponent } from './pages/login/login.component';
 import { DonComponent } from './pages/don/don.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
@@ -43,6 +42,9 @@ import {CdkAccordionModule } from '@angular/cdk/accordion';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProgressBarComponent } from './pages/components/progress-bar/progress-bar.component';
 
+import { httpInterceptorProviders } from './interceptors';
+
+
 
 
 
@@ -66,7 +68,6 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     ProfilComponent,
     ContactComponent,
     ParametresComponent,
-    LoginComponent,
     DonComponent,
     NotificationsComponent,
     InscriptionComponent,
@@ -95,6 +96,7 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
 
 
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -105,8 +107,10 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     CdkAccordionModule,
     ReactiveFormsModule
 
+
+
   ],
-  providers: [],
+  providers: [httpInterceptorProviders],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 
