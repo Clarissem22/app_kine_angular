@@ -1,5 +1,5 @@
 .gros-bloc {
-    height: 40%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 25px;
@@ -19,6 +19,7 @@
             align-items: center;
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: 600;
+            font-size: 2vw;
         }
     }
 
@@ -26,14 +27,14 @@
         height: 100% ;
         width: 100%;
         margin: 1%;
-        text-align: center;
+        margin-left: 10%;
         justify-content: center;
         align-items: center;
-        font-weight: 600;
-        font-size: 1.5em;
+        font-weight: 400;
+        font-size: 1.5vw;
         gap:1vw ;
         font-style:italic;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Yeseva one, sans-serif;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);

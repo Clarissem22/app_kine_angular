@@ -14,7 +14,7 @@ export class ConfigService {
     }
 
     postData(): Observable<any>  {
-        const headers = {'content-type': 'application/json'}; 
+        const headers = {'content-type': 'application/json'};
         const fd: any = new FormData();
         fd.append('data', 'Xava est lumineux');
 

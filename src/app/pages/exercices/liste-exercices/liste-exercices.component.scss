@@ -7,6 +7,8 @@
     border-radius: 25px;
     background-color: white;
     box-shadow: 6px 12px 14px 1px rgba(0, 0, 0, 0.25);
+    font-family: Yeseva one, sans-serif;
+
 
 
       .videos{
@@ -16,29 +18,29 @@
         display: grid;
         grid-template-columns : 25% 25% 25% 25%;
         grid-template-rows : 50% 50%;
-  
-  
+
+
       .video {
         width: 90%;
         height: 80%;
         display: flex;
         flex-direction: column;
         margin-right: 10%;
-  
-   
-  
+
+
+
         &:hover{
           transform : scale(1.1);
           transition: 0.3s;
-  
+
           filter: drop-shadow(6px 12px 14px rgba(0, 0, 0, 0.25) );
-  
+
         }
-  
+
         .img {
           width: 100%;
           height: 80%;
-  
+
           img {
             height: 100%;
             width: 100%;
@@ -66,5 +68,4 @@
       }
       }
     }
-  
-  
+

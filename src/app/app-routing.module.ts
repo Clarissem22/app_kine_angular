@@ -10,6 +10,8 @@ import { DonComponent } from './pages/don/don.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { InscriptionComponent } from './pages/inscription/inscription.component';
 import { ContactKineComponent } from './pages/components/contact-kine/contact-kine.component';
+import { LoginComponent } from './auth/components/login/login.component';
+
 
 const routes: Routes = [
   {path: "home", component: HomeComponent },
@@ -20,13 +22,15 @@ const routes: Routes = [
   {path: "parametres", component: ParametresComponent },
   {path: "don", component: DonComponent },
   {path: "notification", component: NotificationsComponent },
-  {path: "", component: InscriptionComponent },
-  {path: "contactkine", component: ContactKineComponent}
+  {path: "inscription", component: InscriptionComponent },
+  {path: "contactkine", component: ContactKineComponent},
+  {path: "", component:LoginComponent}
+
 
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule,]
 })
 export class AppRoutingModule { }
