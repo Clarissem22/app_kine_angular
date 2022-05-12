@@ -11,8 +11,6 @@ body {
   align-items: center;
 
 
-
-
   .container {
       margin-top: 2%;
       margin-bottom: 2%;
@@ -26,34 +24,34 @@ body {
       flex-direction: column;
       justify-content: space-evenly;
 
-      h1{
-          font-weight: 500;
-          font-size: 3em;
-        }
+        h1{
+            font-weight: 500;
+            font-size: 3em;
+          }
 
-      form {
-          display: flex;
-          flex-direction: column;
-          gap:3vw;
-
-
-          .inputcontainer{
-              display: flex;
-              flex-direction: column;
-              gap:1vw;
-              width: 15vw;
+        form {
+            display: flex;
+            flex-direction: column;
+            gap:3vw;
 
 
-              label{
-                  font-weight: bold;
-                  font-size: 1.3em;
-              }
+            .inputcontainer{
+                display: flex;
+                flex-direction: column;
+                gap:1vw;
+                width: 15vw;
 
-              input {
-                  border-radius: 5px;
-                  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-                  height: 1.5vw;
-              }
+
+                label{
+                    font-weight: bold;
+                    font-size: 1.3em;
+                }
+
+                input {
+                    border-radius: 5px;
+                    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    height: 1.5vw;
+                }
           }
 
           .btncontainer {
@@ -62,13 +60,13 @@ body {
               align-items: center;
               gap: 1vw;
 
-              button {
-                  color: white;
-                  height: 30px;
-                  border-radius: 10px;
-                  letter-spacing: 2px;
-                  width: 80%;
-              }
+                button {
+                    color: white;
+                    height: 2vw;
+                    border-radius: 10px;
+                    letter-spacing: 2px;
+                    width: 80%;
+                }
 
                   .btn-connexion{
                   background-color: #D61A20;;
@@ -83,7 +81,6 @@ body {
                       color: white;
                   }
           }
-
         }
       }
   }

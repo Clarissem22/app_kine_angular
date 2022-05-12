@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
 
+
     .contenu{
         height: 100%;
         width: 95%;
@@ -19,16 +20,25 @@
         .img{
             height: 100%;
 
-              h1{
-                font-size: 150%;
-              }
             img{
               height: 10vw;
               width: 10vw;
+            }
+          }
 
+          div{
+
+            h1{
+              font-size: 1.5vw;
+              font-family: Yeseva one, sans-serif;
+            }
+
+            p {
+              font-family: Yeseva one, sans-serif;
             }
 
           }
+
     }
 
   }

@@ -38,10 +38,11 @@ import { CarrousselComponent } from './pages/components/carroussel/carroussel.co
 import { ProgressBarHomeComponent } from './pages/components/progress-bar-home/progress-bar-home.component';
 import { BgContactComponent } from './pages/contact/bg-contact/bg-contact.component';
 import { CdkAccordionComponent } from './pages/components/cdk-accordion/cdk-accordion.component';
-import {CdkAccordionModule } from '@angular/cdk/accordion';
+import { CdkAccordionModule } from '@angular/cdk/accordion';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ProgressBarComponent } from './pages/components/progress-bar/progress-bar.component';
 import { httpInterceptorProviders } from './interceptors';
+
 
 
 
@@ -88,10 +89,7 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     BgContactComponent,
     CdkAccordionComponent,
     ProgressBarHomeComponent,
-    ProgressBarComponent
-
-
-
+    ProgressBarComponent,
 
 
   ],
@@ -105,10 +103,8 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     NgImageSliderModule,
     CdkAccordionModule,
     ReactiveFormsModule
-
-
-
   ],
+
   providers: [httpInterceptorProviders],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
